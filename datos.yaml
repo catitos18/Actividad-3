@@ -1,0 +1,24 @@
+dispositivo: Switch01
+ubicacion: Sala de comunicaciones
+ip: 192.168.1.1
+puertos:
+- id: 1
+  nombre: GigabitEthernet0/0
+  estado: up
+  velocidad: 1Gbps
+  descripcion: Conexion a Router
+- id: 2
+  nombre: GigabitEthernet0/1
+  estado: up
+  velocidad: 1Gbps
+  descripcion: Conexion a Servidor
+- id: 3
+  nombre: GigabitEthernet0/2
+  estado: down
+  velocidad: 1Gbps
+  descripcion: Puerto disponible
+- id: 4
+  nombre: GigabitEthernet0/3
+  estado: down
+  velocidad: 1Gbps
+  descripcion: Nuevo puerto agregado
